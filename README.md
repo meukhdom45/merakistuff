@@ -1,0 +1,2 @@
+# merakistuff
+Meraki API scripts
