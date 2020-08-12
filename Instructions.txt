@@ -1,0 +1,1 @@
+Load the csv file with your MS switches serial number and run the script
