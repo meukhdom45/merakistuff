@@ -1,0 +1,7 @@
+-Meraki MX uplink (to use lldp info for the created file)
+-Uplink port standard accross your LAN
+-Python3
+-Meraki python sdk 1
+-Pandas
+
+
