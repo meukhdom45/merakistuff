@@ -10,9 +10,9 @@ import csv
 
 
 # Defining your API key as a variable in source code is not recommended
-#API_KEY = 'INSERT YOUR API KEY HERE'
 # Instead, use an environment variable as shown under the Usage section
 # @ https://github.com/meraki/dashboard-api-python/
+#API_KEY = 'INSERT YOUR API KEY HERE'
 
 dashboard = meraki.DashboardAPI()
 
@@ -36,7 +36,7 @@ for row in csv_f:
         switch_port_df = switch_port_df[['portId','status']]
 
 
-        # retrieve llpd server name for port 1 an place into "name" variable
+        # retrieve llpd neighbor name for port 1 an place into "name" variable
         #This is because we are retrieving the lldp of the device connected on the uplink port to rename the output csv rather than using serial number
         #So if your uplink port is different please modify accordingly 
 
